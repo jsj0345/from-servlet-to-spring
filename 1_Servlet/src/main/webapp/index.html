@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Hello Web!</h1>
+	
+	<p>
+		서블릿 이란 ? <br>
+		웹 서비스를 위한 " 자바 클래스 "를 말하며 자바를 사용하여 웹을 만들기 위해 필요한 기술 <br>
+		-사용자의 요청을 받아 처리하고 그에 해당하는 응답페이지를 만들어 다시 사용자에게 전송하는 역할을 하는 자바클래스 <br>
+		Controller의 기능을 수행한다. <br>
+		-웹에서 동적인 페이지를 JAVA로 구현할 수 있도록 도와주는 서버측 프로그램(WAS 서버에서 구동) <br>
+	    JAVA클래스에서 웹 페이지 구현을 위한 HTML이 들어간 구조라고 할 수 있음 (java코드로 HTML구현)
+	    
+	</p>
+	
+	<h3><a href="views/request_GET.html">GET방식 테스트페이지로</a></h3>
+	<!--앞에 슬래시가 없으면 상대경로, 있으면 절대경로-->
+	<h3><a href="/1_Servlet/views/request_POST.html">POST방식 테스트페이지로</a></h3>
+	
+	<!--상대 경로는 현재 HTML 파일이 기준이 된다. 같은 위치면 생략 가능, 하위 폴더면 폴더명/파일명만 쓰면 된다.-->
+	
+	<!--
+		상대경로는 이동할때의 파일이랑 같은 위치에있으면 같은 위치까지는 제외 그 하위 위치만 작성하면되고 
+		(물론 컨텍스트 루트가 1_Servlet 그리고 src/main/webapp은 디폴트니까 제외)
+	 	절대 경로는 localhost:8080에서 시작하니까 / 를붙여야하는데 당연히 컨텍스트 루트는 붙여야하고. 
+	 	src/main/webapp은 디폴트니까 안써도된다.	
+    -->
+
+</body>
+</html>
+
+
+<!--
+	<!DOCTYPE html>
+	<html>
+	<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    </head>
+    <body>
+		<h1>Hello Web!</h1>
+		
+		<p>
+			서블릿이란? <br>
+			웹 서비스를 위한 "자바 클래스"를 말하며 자바를 사용하여 웹을 만들기 위해 필요한 기술 <br>
+			-사용자의 요청을 받아 처리하고 그에 해당하는 응답 페이지를 만들어 다시 사용자에게 전송하는 역할을 하는 자바클래스 <br>
+			Controller의 기능을 수행한다.
+			-웹에서 동적인 페이지를 JAVA로 구현할 수 있도록 도와주는 서버측 프로그램(WAS 서버에서 구동) <br>
+			JAVA클래스에서 웹 페이지 구현을 위한 HTML이 들어간 구조라고 할 수 있음 (java 코드로 HTML 구현) 
+		</p>
+		
+		<h3><a href="views/request_GET.html">GET방식 테스트페이지로</a></h3>
+		앞에 슬래시가 없으면 상대경로, 있으면 절대경로!
+		<h3><a href="/1_Servlet/views/request_GET.html">GET방식 테스트페이지로</a></h3>
+		
+				
+						
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+-->	
